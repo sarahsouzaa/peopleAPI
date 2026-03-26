@@ -53,6 +53,7 @@ The API will start on http://localhost:8080.
 | PUT | `/people/{id}` | Update a person |
 | DELETE | `/people/{id}` | Delete a person |
 
+Request Example:
 {
   "name": "Sarah",
   "cpf": "123.456.789-00",
@@ -60,7 +61,6 @@ The API will start on http://localhost:8080.
 }
 
 Response Example:
-
 {
   "id": 1,
   "name": "Sarah",
@@ -70,23 +70,28 @@ Response Example:
 
 ### Project Structure
 
-src/main/java/com/sarah/people/
-├── controller/
-│   └── PersonController.java
-├── dto/
-│   ├── request/
-│   │   └── PersonRequestDTO.java
-│   └── response/
-│       └── PersonResponseDTO.java
-├── entity/
-│   └── Person.java
-├── repository/
-│   └── PersonRepository.java
-├── service/
-│   ├── PersonService.java
-│   └── PersonServiceImplements.java
-├── util/
-│   └── PersonMapper.java
-└── PeopleApplication.java 
+src/
+└── main/
+    └── java/
+        └── com/
+            └── sarah/
+                └── people/
+                    ├── controller/
+                    │   └── PersonController.java
+                    ├── dto/
+                    │   ├── request/
+                    │   │   └── PersonRequestDTO.java
+                    │   └── response/
+                    │       └── PersonResponseDTO.java
+                    ├── entity/
+                    │   └── Person.java
+                    ├── repository/
+                    │   └── PersonRepository.java
+                    ├── service/
+                    │   ├── PersonService.java
+                    │   └── PersonServiceImplements.java
+                    ├── util/
+                    │   └── PersonMapper.java
+                    └── PeopleApplication.java
 
----
+--- Sarah Souza ----
