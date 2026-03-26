@@ -54,6 +54,7 @@ The API will start on http://localhost:8080.
 | DELETE | `/people/{id}` | Delete a person |
 
 Request Example:
+```
 {
   "name": "Sarah",
   "cpf": "123.456.789-00",
@@ -61,15 +62,18 @@ Request Example:
 }
 
 Response Example:
+
 {
   "id": 1,
   "name": "Sarah",
   "cpf": "123.456.789-00",
   "age": 25
 }
+```
 
 ### Project Structure
 
+```
 src/
 └── main/
     └── java/
@@ -93,5 +97,6 @@ src/
                     ├── util/
                     │   └── PersonMapper.java
                     └── PeopleApplication.java
+```
 
 --- Sarah Souza ----
