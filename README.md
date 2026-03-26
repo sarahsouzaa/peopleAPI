@@ -87,6 +87,6 @@ src/main/java/com/sarah/people/
 │   └── PersonServiceImplements.java
 ├── util/
 │   └── PersonMapper.java
-└── PeopleApplication.java
+└── PeopleApplication.java 
 
 ---
