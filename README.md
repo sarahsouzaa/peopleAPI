@@ -60,9 +60,9 @@ Request Example:
   "cpf": "123.456.789-00",
   "age": 25
 }
-
+```
 Response Example:
-
+```
 {
   "id": 1,
   "name": "Sarah",
