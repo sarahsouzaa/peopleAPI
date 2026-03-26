@@ -34,11 +34,11 @@ The tables will be created automatically when you run the application.
 
 ### Configuration
 Open src/main/resources/application.properties and update with your database credentials:
-
+```
 spring.datasource.url=jdbc:postgresql://localhost:5432/peopleAPI
 spring.datasource.username=YOUR_USERNAME
 spring.datasource.password=YOUR_PASSWORD
-
+```
 ### How to Run
 mvn spring-boot:run
 The API will start on http://localhost:8080.
